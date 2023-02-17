@@ -1,0 +1,33 @@
+body{
+  background-color: lightpink;
+  color: white;
+  background: linear-gradient(to top left,#417eb4, #f46036) no-repeat fixed;
+}
+h1{
+  text-align: center;
+}
+.timing{
+  display: inline;
+  margin-right: 20%;
+  text-align: center;
+}
+.minute{
+  margin-left: 37%;
+}
+#image-section{
+  width: 50%;
+  margin: auto;
+}
+.card{
+  margin: 15px;
+  border-radius: 10px;
+}
+.tog{
+  visibility: hidden;
+}
+.card-img-top{
+  height:150px;
+}
+.card:hover {
+  cursor: pointer;
+}

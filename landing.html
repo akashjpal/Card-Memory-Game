@@ -22,12 +22,12 @@
         text-align: center;
         }
         .first{
-            padding: 7% 15%;
+            padding: 7% 5%;
             background-color: #E8A0BF;
             color: white;
         }
         .collapse{
-            margin-left: 25%;
+            margin-left: 20%;
         }
         .nav-item{
             padding-left: 50px;
@@ -89,11 +89,14 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="/Scoreboard">ScoreBoard</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item log1">
-                        <a class="nav-link log" href="Login.html">SignUp</a>
+                        <a class="nav-link log" href="Registeration.html">SignUp</a>
                     </li>
                 </ul>
             </div>
@@ -104,12 +107,11 @@
         <div class="container-fluid second">
             <div class="row">
                 <div class="col col1">
-                    <img src="C:\Users\Aspire 5\Dropbox\PC\Desktop\Memory Card game\Flip_Card_Memory_game\flippy_card.jpg"
-                        alt="This is an Image">
+                    <img src="images/flippy_card.jpg" alt="This is an Image">
                 </div>
                 <div class="col col2">
                     <Button class="btn btn-lg"><i class="fa-solid fa-play"></i> Play Game</Button>
-                    <p class="note"><span>Note: </span>If you will not <span>SignUp/Login</span> then Your progress will not be stored.</p>
+                    <p class="note"><span>Note: </span>You have to <span>SignUp/Login</span> before playing Game.</p>
                 </div>
             </div> 
         </div>
@@ -119,6 +121,12 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+        <script>
+            // public/client.js (Client-side JavaScript file)
+                document.querySelector('.btn').addEventListener('click', function () {
+                    window.location.href = '/index.html'; // Navigate to the specified URL
+                });
+        </script>
     
 </body>
 
